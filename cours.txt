@@ -1,0 +1,16 @@
+symfony console make:entity       
+	> afin de créer une classe
+
+	enter : nom db
+		nom table et definir 
+
+// Créer une migration
+symfony console make:migration
+php bin/console make:migration           
+
+// Créer la base de données
+symfony console doctrine:database:create  
+symfony console make:migration 
+
+constructeur = creer un objet dans une classe
+instancier = déclarer de type un objet 
